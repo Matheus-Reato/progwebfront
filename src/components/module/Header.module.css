@@ -1,0 +1,50 @@
+.navbar{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    background-color: #222;
+    padding-top: 1em;
+    height: 100px;
+}
+
+.list{
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+
+.item{
+    font-size: 25px;
+    padding-right: 1em;
+    padding-top: 0.5em;
+}
+
+.item a{
+    color: #FFF;
+    text-decoration: none;
+}
+
+.item a:hover{
+    color:#ffbb33;
+}
+
+h1{
+    color: #FFF; 
+    padding-left: 10px;
+}
+
+.link{
+    text-decoration: none;
+}
+
+.link:hover{
+    background-color: #222;
+}
+
+.dropdown{
+    display: flex;
+}
+
+.botaoUsuario:hover{
+    color:#ffbb33;
+}
