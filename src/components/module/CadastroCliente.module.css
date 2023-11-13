@@ -1,0 +1,23 @@
+.nomeRoteiro{
+    color:black;
+    padding-top: 30px;
+    text-align: center;
+}
+
+.container{
+    position: relative;
+    width: 600px;
+    margin: 0 auto;
+    padding-top: 30px;
+    height: 79.1vh; /* Altura da tela inteira */
+}
+
+.submit{
+    padding-top: 20px;
+    width:100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 10px;
+    padding-right: 10px;
+}

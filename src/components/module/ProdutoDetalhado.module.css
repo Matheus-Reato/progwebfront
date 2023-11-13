@@ -1,0 +1,65 @@
+.nomeRoteiro{
+    text-align: center;
+    color:black;
+    padding-top: 40px;
+}
+
+.container{
+    position: relative;
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.imagem{
+    display: flex;   
+    justify-content: center;
+}
+
+img {
+    max-width: 900px; /* Para evitar que a imagem seja maior que a tela */
+    max-height: 400px;
+  }
+
+.atracoes{
+    padding-top: 15px;
+    text-align: justify;
+    font-size: 18px;
+}
+
+.descricao{
+    font-size: 18px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: justify;
+}
+
+.datas{
+    padding-top: 10px;
+    text-align: center;
+    color: red;
+}
+
+.atividade{
+    text-align: justify;
+}
+
+.backToTop {
+    width: 40px;
+    height: 40px;
+    position: fixed;
+    bottom: 20px; /* Ajuste conforme necessário para a posição vertical */
+    right: 20px; /* Ajuste conforme necessário para a posição horizontal */
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    background-color: #333;
+    color: white;
+    font-size: 24px;
+    cursor: pointer;
+    transition: opacity 0.3s, visibility 0.3s;
+  }
+
+  .backToTop:hover{
+    background-color: #ffbb33;
+    transition: all 0.5s;
+}

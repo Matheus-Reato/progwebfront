@@ -12,7 +12,7 @@ function Header(){
                         <Link to="/biblioteca">Biblioteca</Link>
                         </li>
                         <li className={styles.item}>
-                        <Link to="/cadastro">Clientes</Link>
+                        <Link to="/todosClientes">Clientes</Link>
                         </li>
                         <li className={styles.item}>
                         <Dropdown data-bs-theme="dark" >
