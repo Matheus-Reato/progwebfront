@@ -9,6 +9,7 @@ import ViewClientes from './components/pages/ViewClientes';
 import Footer from './components/pages/Footer';
 import ViewProdutos from './components/pages/ViewProdutos';
 import UpdateProdutos from './components/pages/UpdateProdutos';
+import UpdateClientes from './components/pages/UpdateClientes';
 
 
 function App() {
@@ -25,6 +26,7 @@ function App() {
                   <Route path="/biblioteca" element={<ViewProdutos />}/>
                   <Route path="/biblioteca/:id" element={<ProdutoDetalhado />}/>
                   <Route path="/todosClientes" element={<ViewClientes />}/>
+                  <Route path="/clientes/:id" element={<UpdateClientes />}/>  
                   <Route path="/cliente" element={<CadastroCliente />}/>  
                   <Route path="/produto" element={<CadastroProduto />}/>  
                   <Route path="/produtos/:id" element= {< UpdateProdutos />}/>             

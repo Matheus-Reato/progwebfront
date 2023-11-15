@@ -29,7 +29,8 @@ function CadastroProduto(){
           });
     
           if (response.ok) {
-            console.log("Enviado")          
+            console.log("Enviado")
+            window.location.reload();          
           } else {
             console.log("Erro")           
           }
