@@ -81,7 +81,7 @@ function ProdutoDetalhado() {
           </p>
         </div>
 
-      <div className='border' style={{padding:' 0 20px', display:'flex', flexDirection: 'column', justifyContent:'center', alignItems:'center'}}>
+      <div className='border' style={{padding:'0 20px', display:'flex', flexDirection: 'column', justifyContent:'center', alignItems:'center', marginBottom:'20px'}}>
               
           <h5>
             Adicione ao carrinho: 

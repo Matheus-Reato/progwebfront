@@ -32,6 +32,7 @@ function App() {
                   <Route path="/produtos/:id" element= {< UpdateProdutos />}/>             
             </Routes>           
           
+      <Footer></Footer>
       
     </Router>
 
