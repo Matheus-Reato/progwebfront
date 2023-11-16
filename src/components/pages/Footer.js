@@ -16,7 +16,7 @@ function Footer(){
                     <FaLinkedin></FaLinkedin>
                 </li>
             </ul>
-            <p className={styles.copy_right}><span>Guia Turismo PI V</span> &copy; 2023</p>
+            <p className={styles.copy_right}><span>Lojinha de Jogos</span> &copy; 2023</p>
         </footer>
       </div>  
 

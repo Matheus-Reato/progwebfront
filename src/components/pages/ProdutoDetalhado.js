@@ -64,41 +64,46 @@ function ProdutoDetalhado() {
     <div className={styles.container}>
       <form className="row g-3" onSubmit={handleCompraSubmit}>
         <div className="col-12">
-          <h1 className={styles.nomeRoteiro}>{repositories.nome}</h1>
+          <h1 className={styles.nomeJogo}>{repositories.nome}</h1>
         </div>
 
         <div className="col-12" style={{ display: 'flex', justifyContent: 'center' }}>
-          <img src={repositories.url_imagem} alt="imagemRoteiro"></img>
+          <img src={repositories.url_imagem} alt="imagemJogo"></img>
         </div>
 
         <div className="col-12">
-          <h3 className={styles.atracoes}>R$ {repositories.preco}</h3>
+          <h3 className={styles.preco}>R$ {repositories.preco}</h3>
         </div>
 
         <div className="col-12">
-          <p className={styles.descricao}>
+          <p className={styles.sinopse}>
             <b>SINOPSE:</b> {repositories.sinopse}
           </p>
         </div>
 
-        <label>
-          Selecione o Cliente:
-          <select value={idCliente} onChange={(e) => setIdCliente(e.target.value)}>  
+      <div className='border' style={{padding:' 0 20px', display:'flex', flexDirection: 'column', justifyContent:'center', alignItems:'center'}}>
+              
+          <h5>
+            Adicione ao carrinho: 
+          </h5>
 
-          <option value="" disabled>Escolha um cliente</option>         
-            {clientes.sort((a, b) => a.nome.localeCompare(b.nome)).map((cliente) => (
-                           
-              <option key={cliente.idCliente} value={cliente.idCliente}>
-                {cliente.nome}
-              </option>
-            ))}
+          <select value={idCliente} onChange={(e) => setIdCliente(e.target.value)}>  
+          
+         
+            <option value="" disabled>Escolha um cliente</option>         
+              {clientes.sort((a, b) => a.nome.localeCompare(b.nome)).map((cliente) => (
+                            
+                <option key={cliente.idCliente} value={cliente.idCliente}>
+                  {cliente.nome}
+                </option>
+              ))}
           </select>
-        </label>
 
         <div className={styles.submit}>
           <button type="submit" className="btn btn-success">
             <i className="fa-solid fa-check"></i> Enviar
           </button>
+        </div>
         </div>
       </form>
     </div>

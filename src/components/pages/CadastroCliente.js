@@ -42,7 +42,7 @@ function CadastroCliente(){
     return(
         <div className={styles.container}>
             <div>
-                <h1 className={styles.nomeRoteiro}>Cadastro de Cliente</h1>
+                <h1 className={styles.nomeCliente}>Cadastro de Cliente</h1>
             </div>
 
             <form className='row g-3 border' style={{paddingTop:'20px'}} onSubmit={handleSubmit}>

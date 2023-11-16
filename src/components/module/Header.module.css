@@ -45,6 +45,6 @@ h1{
     display: flex;
 }
 
-.botaoUsuario:hover{
+.botaoCadastro:hover{
     color:#ffbb33;
 }

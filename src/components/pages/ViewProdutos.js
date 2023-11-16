@@ -20,7 +20,7 @@ function ViewProdutos() {
 
 
         return (
-            <section className={styles.roteiro}>
+            <section className={styles.jogos}>
 
                 <h1 className='text-center' style={{color:'black'}} >Jogos</h1>          
 

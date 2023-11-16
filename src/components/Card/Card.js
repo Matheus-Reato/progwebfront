@@ -40,7 +40,7 @@ function Card({name, preco, url_imagem, sinopse, identificador}){
     return(
         <section className={styles.card}>
                 
-                <img  className={styles.imagemViagem} src={url_imagem} alt="imagem-produto"></img>
+                <img  className={styles.imagemJogo} src={url_imagem} alt="imagem-produto"></img>
                 
             <h3>{name}</h3>
             <p>R${preco}</p>

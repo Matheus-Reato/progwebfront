@@ -42,7 +42,7 @@ function CadastroProduto(){
     return(
         <div className={styles.container}>
             <div>
-                <h1 className={styles.nomeRoteiro}>Cadastro de Produto</h1>
+                <h1 className={styles.nomeProduto}>Cadastro de Produto</h1>
             </div>
 
             <form className='row g-3 border' style={{paddingTop:'20px'}} onSubmit={handleSubmit}>
